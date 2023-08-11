@@ -1,0 +1,93 @@
+:root {
+  --main-color: red;
+}
+
+.about {
+  background-color: black;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.about .about-me {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.about .about-me .about-1 {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.about .about-me .about-2 {
+  font-weight: bold;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 600%;
+  padding-top: 50px;
+}
+.about .p-img {
+  padding-top: 350px;
+}
+.about .obj {
+  margin-top: 200px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 2.5vw;
+}
+.about .obj,
+.about .info-head {
+  color: var(--main-color);
+}
+.about .info-head {
+  font-size: 25px;
+}
+.about .info-title {
+  font-size: 20px;
+}
+
+@media (max-height: 1368px) {
+  .about {
+    position: relative;
+    bottom: 250px;
+  }
+}
+@media (max-height: 1280px) {
+  .about {
+    position: relative;
+    bottom: 200px;
+  }
+}
+@media (max-height: 1024px) {
+  .about {
+    position: relative;
+    bottom: 100px;
+  }
+}
+@media (max-height: 960px) {
+  .about {
+    position: relative;
+    bottom: 0px;
+  }
+}
+@media (max-height: 640px) {
+  .about {
+    position: relative;
+    bottom: 0px;
+  }
+}
+@media (max-height: 732px) {
+  .about {
+    position: relative;
+    bottom: -50px;
+  }
+}
+@media (max-width: 240px) {
+  .about .about-me .about-1 {
+    font-size: 50px;
+    color: red;
+  }
+  .about .about-me .about-2 {
+    font-size: 70px;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=about.css.map */

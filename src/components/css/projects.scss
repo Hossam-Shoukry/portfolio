@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    margin-top: 200px;
+    background-color: grey;
+    padding: 40px 0px;
+ 
+  }
+.projects {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+ 
+  .app-store , .restaurant, .portfolio{
+    color: white;
+    font-weight: bold;
+    text-shadow: 6px 6px 7px rgb(194, 236, 6);
+  }
+  
+  .visit-site{
+    transition:0.5s ;
+  -webkit-transition:0.5s ;
+  -moz-transition:0.5s ;
+  -ms-transition:0.5s ;
+  -o-transition:0.5s ;
+    color: black;
+    &:hover{
+      scale: 1.1;
+    }
+  }
+  .my-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .button{
+      border: none;
+      font-size: 16px;
+      color: #fff;
+      padding: 8px 16px;
+      background-color: #4070f4;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+      margin: 14px;
+      transition: all .3s ease;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+}
+.button:hover{
+  background: #265df2;
+}
+  }
+  .slide-content{
+    margin: 0 40px;
+  }
+  .projects-1,
+  .projects-2 {
+    color: white;
+    position: absolute;
+    padding-top: 75px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .projects-1 {
+    font-size: 40px;
+  }
+  .projects-2 {
+    font-size: 50px;
+    opacity: 0.5;
+    margin-top: 15px;
+  }
+  .card{
+    text-align: center;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+    background-color: #fff;
+    width: 320px;
+    .image-content{
+      row-gap: 5px;
+      position: relative;
+    
+      .overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius:25px 25px 0 25px;
+        -webkit-border-radius:25px 25px 0 25px;
+        -moz-border-radius:25px 25px 0 25px;
+        -ms-border-radius:25px 25px 0 25px;
+        -o-border-radius:25px 25px 0 25px;
+        height: 100%;
+        width: 100%;
+        background-color: #4070f4;
+        &::before , &::after{
+            content: '';
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            right: 0;
+            bottom: -40px;
+            background-color: #4070f4;
+
+          }
+          &::after{
+            background-color: #fff;
+            border-radius: 0 25px 0 0;
+            -webkit-border-radius: 0 25px 0 0;
+            -moz-border-radius: 0 25px 0 0;
+            -ms-border-radius: 0 25px 0 0;
+            -o-border-radius: 0 25px 0 0;
+}
+        }
+
+        }
+      }
+    }
+   
+.image-content , .card-content{
+padding: 10px 14px;
+padding: 10px 14px;
+}
+
+.card-content{
+   .name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+
+}
+} .name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+  .card-image{
+      position: relative;
+      height: 150px;
+      width: 150px;
+      padding: 3px;
+      margin-left: 27%;
+      .card-img{
+       
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border: 4px solid #4070f4;
+  }
+    
+}
+@media (max-height:1368px) {
+  .projects{
+    position: relative;
+    bottom: 280px;
+  }
+  
+}  
+@media (max-height:1280px) {
+  .projects{
+    position: relative;
+    bottom: 280px;
+  }
+  
+}  
+@media (max-height:1138px) {
+  .projects{
+    position: relative;
+    bottom: 250px;
+  }
+  
+}  
+@media (max-height:1024px) {
+  .projects{
+    position: relative;
+    bottom: 150px;
+  }
+  
+}
+@media (max-height:915px) {
+  .projects{
+    position: relative;
+    bottom: 80px;
+  }
+  
+}
+@media (max-height:896px) {
+  .projects{
+    position: relative;
+    bottom: 80px;
+  }
+  
+}
+@media (max-height:854px) {
+  .projects{
+    position: relative;
+    bottom: 100px;
+  }
+  
+}
+@media (max-height:740px) {
+  .projects{
+    position: relative;
+    bottom: 10px;
+  }
+  
+}
+@media (max-height:667px) {
+  .projects{
+    position: relative;
+    bottom: 50px;
+  }
+  
+}
+@media (max-height:640px) {
+  .projects{
+    position: relative;
+    bottom: 50px;
+  }
+  
+}

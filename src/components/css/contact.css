@@ -1,0 +1,150 @@
+:root {
+  --main-color: red;
+}
+
+.contact {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.contact .contact-title {
+  font-size: 20px;
+  color: #ccc;
+  font-weight: bold;
+}
+.contact .contact-adress {
+  color: #ccc;
+  font-weight: bold;
+}
+.contact .call-me {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.contact .call-me span {
+  position: absolute;
+  margin-top: 100px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contact .call-me .contact-1 {
+  font-size: 45px;
+}
+.contact .call-me .contact-2 {
+  font-size: 47px;
+  padding-top: 12px;
+  opacity: 0.5;
+}
+.contact .socials {
+  margin-top: 200px;
+}
+.contact .socials .my-icon {
+  color: var(--main-color);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+@media (max-height: 1368px) {
+  .contact {
+    position: relative;
+    bottom: 1100px;
+  }
+}
+@media (max-height: 1138px) {
+  .contact {
+    position: relative;
+    bottom: 800px;
+  }
+}
+@media (max-height: 1280px) {
+  .contact {
+    position: relative;
+    bottom: 1000px;
+  }
+}
+@media (max-height: 1180px) {
+  .contact {
+    position: relative;
+    bottom: 900px;
+  }
+}
+@media (max-height: 1024px) {
+  .contact {
+    position: relative;
+    bottom: 600px;
+  }
+}
+@media (max-height: 915px) {
+  .contact {
+    position: relative;
+    bottom: 480px;
+  }
+}
+@media (max-height: 896px) {
+  .contact {
+    position: relative;
+    bottom: 450px;
+  }
+}
+@media (max-height: 854px) {
+  .contact {
+    position: relative;
+    bottom: 400px;
+  }
+}
+@media (max-height: 823px) {
+  .contact {
+    position: relative;
+    bottom: 330px;
+  }
+}
+@media (max-height: 740px) {
+  .contact {
+    position: relative;
+    bottom: 200px;
+  }
+}
+@media (max-height: 658px) {
+  .contact {
+    position: relative;
+    bottom: 150px;
+  }
+}
+@media (max-height: 640px) {
+  .contact {
+    position: relative;
+    bottom: 90px;
+  }
+}
+@media (max-height: 480px) {
+  .contact {
+    position: relative;
+    bottom: 0px;
+  }
+}
+@media (max-width: 391px) {
+  .contact .contact-title {
+    font-size: 17px;
+  }
+}
+@media (max-width: 391px) {
+  .contact .contact-title {
+    font-size: 15px;
+  }
+}
+@media (max-height: 360px) {
+  .contact {
+    position: relative;
+    bottom: -130px;
+  }
+}
+@media (max-width: 240px) {
+  .contact .call-me {
+    position: relative;
+    left: 10px;
+  }
+  .contact .call-me .contact-2 {
+    font-size: 40px;
+    margin-top: 105px;
+  }
+}/*# sourceMappingURL=contact.css.map */
